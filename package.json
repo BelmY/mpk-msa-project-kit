@@ -1,0 +1,26 @@
+{
+  "name": "msa-project-kit",
+  "version": "1.0.0",
+  "description": "MPK - Mission & Safety Assurance Project Kit by FJB",
+  "author": "FJB <fjb@msaprojectkit.local>",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:portable": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.fjb.msaprojectkit",
+    "productName": "MSA_Project_Kit_FJB",
+    "directories": {
+      "output": "dist-win"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "assets/app.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}
