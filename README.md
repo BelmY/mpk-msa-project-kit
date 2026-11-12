@@ -4,13 +4,22 @@
 
 # MPK — MSA Project Kit (by FJB)
 
-Standalone desktop project management suite tailored for Mission & Safety Assurance (MSA/RAMS) engineering workflows, featuring integrated WBS task/milestone injection, advanced dual-table budgeting (tasks & roles), document control signatures, and professional PDF/Print exports.
+Standalone desktop project management suite tailored for **Mission & Safety Assurance (MSA / RAMS)** engineering workflows. Based on the Gantit open-source engine, MPK provides a professional Ribbon-style interface, WBS task/milestone management, advanced dual-table budgeting (tasks & engineering roles), document control signatures, and professional PDF/Print exports.
 
-## Credits & Acknowledgements
-- **Original Viewer Core:** Based on the open-source [Gantit](https://github.com/) project. Deep gratitude to the original author.
-- **Standalone Desktop Architecture & PRO Extensions:** Customized, packaged, and maintained by **[belmy](https://github.com/belmy)** (FJB).
+---
 
-## Tech Stack
-- Electron, Node.js / V8, Chromium
-- MPXJ (Microsoft Project data interchange)
-- Electron-Builder
+## ✨ Key Features
+- **Ribbon-Based UI:** Grouped productivity modules for File, WBS Tasks, Resources, Cost, Config, and Visualization.
+- **WBS & Milestones:** Effortless task injection, summary work-package grouping, and zero-duration milestones.
+- **Dual-Table Cost Engine:** Track hourly engineering roles (Work) and fixed-price items/licenses (Material) with executive KPIs.
+- **Document Control & Signatures:** Configurable engineering approval blocks (*Prepared by, Reviewed by, Approved by*), document codes, and revision control for formal printing/PDFs.
+- **Standalone Portable Execution:** Fully packaged for Windows via Electron-Builder.
+
+---
+
+## 🚀 Quick Start & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/BelmY/mpk-msa-project-kit.git](https://github.com/BelmY/mpk-msa-project-kit.git)
+   cd mpk-msa-project-kit
