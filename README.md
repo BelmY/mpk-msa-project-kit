@@ -20,7 +20,7 @@ Standalone desktop project management suite tailored for **Mission & Safety Assu
 ## 🚀 Quick Start & Installation
 
 1. Installation (Windows environment):
-   It is very simple and straightforward, just download the 7Z/ZIP files in "assets", decompress them in a new folder and run the executable portable file. Enjoy     it !!!
+   It is very simple and straightforward, just download the 7Z/ZIP files of last release available in "Releases", decompress them in a new folder and run the executable portable file. Enjoy     it !!!
 2. To clone the repository:
    ```bash
    git clone [https://github.com/BelmY/mpk-msa-project-kit.git](https://github.com/BelmY/mpk-msa-project-kit.git)
